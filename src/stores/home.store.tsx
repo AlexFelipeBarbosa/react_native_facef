@@ -11,6 +11,12 @@ export default class HomeStore {
         this.numbers += 1;
     }
 
+    @action decrement = () => {
+        if(this.numbers > 0) {
+        this.numbers -= 1;
+        }
+    }
+
 }
 const homeStore = new HomeStore();
 export { homeStore };

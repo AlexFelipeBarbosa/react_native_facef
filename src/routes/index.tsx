@@ -11,7 +11,7 @@ function Routes() {
         <NavigationContainer>
             <Stack.Navigator>
                 <Stack.Screen options={{
-                    headerTitle: 'Etanol ou Gasolina?',
+                    headerTitle: 'Abasteço o que? - Etanol ou Gasolina?',
                     headerTintColor: '#ffffff',
                     headerStyle: {
                         backgroundColor: '#2b7cd7',
